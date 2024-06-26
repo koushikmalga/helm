@@ -1,0 +1,308 @@
+Nutanix core_k8s-csi_3.0.0
+Copyright 2023 Nutanix Inc.
+
+
+This notices file applies to the Nutanix product offering it is distributed with and as may be published in the Nutanix portal.
+
+Nutanix product offerings may include open source software, including without limitation, a Linux distribution base image or utilities, that is copyrighted by the respective authors.  The components and their licenses listed in this Notice are provided for notification as required by the various open source licenses.  Where more than one license is stated for an open source component, Nutanix elects the most permissive license. 
+ 
+If required by an open source license, Nutanix will provide a copy of the open source component source code upon request,  within a reasonable period of time, and for a reasonable fee.  You may send a request to: Nutanix, Inc.,1740 Technology Dr Ste 150, San Jose, CA 95110;  Attention: Legal.  All requests for source code must include (i) the applicable Nutanix product offering name and version containing the open source component, (ii) the open source component name and version for which the source code is being requested, (iii) your name, (iv) your organization or company’s name (if applicable), (v) your return mailing and email address (if available). 
+
+Components: 
+
+chzyer-readline v1.5.0 : MIT License
+github.com/mmcloughlin/avo v0.4.0 : BSD 3-clause "New" or "Revised" License
+go.googlesource.com/arch 20210923-snapshot-b76863e3 : BSD 3-clause "New" or "Revised" License
+go.googlesource.com/arch v0.4.0 : BSD 3-clause "New" or "Revised" License
+golang.org/x/crypto 20191011-snapshot-87dc89f0 : BSD 3-clause "New" or "Revised" License
+golang.org/x/crypto 20230706-snapshot-2e82bdd1 : BSD 3-clause "New" or "Revised" License
+golang.org/x/mod v0.12.0 : BSD 3-clause "New" or "Revised" License
+golang.org/x/mod v0.4.2 : BSD 3-clause "New" or "Revised" License
+golang.org/x/mod v0.8.0 : BSD 3-clause "New" or "Revised" License
+golang.org/x/net 20210728-snapshot-aaa1db67 : BSD 3-clause "New" or "Revised" License
+golang.org/x/net 20221013-snapshot-57553cbf : BSD 3-clause "New" or "Revised" License
+golang.org/x/net v0.12.0 : BSD 3-clause "New" or "Revised" License
+golang.org/x/sync 20210219-snapshot-036812b2 : BSD 3-clause "New" or "Revised" License
+golang.org/x/sync v0.3.0 : BSD 3-clause "New" or "Revised" License
+golang.org/x/sys 0.10.0 : BSD 3-clause "New" or "Revised" License
+golang.org/x/sys 20211019-snapshot-b3129d9d : BSD 3-clause "New" or "Revised" License
+golang.org/x/term 20201126-snapshot-7de9c90e : BSD 3-clause "New" or "Revised" License
+golang.org/x/term v0.10.0 : BSD 3-clause "New" or "Revised" License
+golang.org/x/tools v0.1.7 : BSD 3-clause "New" or "Revised" License
+golang.org/x/tools v0.6.0 : BSD 3-clause "New" or "Revised" License
+golang.org/x/xerrors 20200804-snapshot-5ec99f83 : BSD 3-clause "New" or "Revised" License
+golang/text v0.11.0 : BSD 3-clause "New" or "Revised" License
+golang/text v0.3.6 : BSD 3-clause "New" or "Revised" License
+ianlancetaylor/demangle 20220319-snapshot-800ac71e : BSD 3-clause "New" or "Revised" License
+rsc/pdf v0.1.1 : BSD 3-clause "New" or "Revised" License
+yuin/goldmark v1.4.0 : MIT License
+yuin/goldmark v1.4.13 : MIT License
+
+Copyright Text: 
+
+chzyer-readline v1.5.0 github:chzyer/readline:v1.5.0
+	Copyright 2013 The Go Authors. All rights reserved
+	Copyright 2011 The Go Authors. All rights reserved
+	Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+	Copyright (c) 2015 Chzyer
+golang.org/x/mod v0.4.2 long_tail:go.googlesource.com/mod#v0.4.2
+	Copyright 2018 The Go Authors. All rights reserved
+	Copyright 2019 The Go Authors. All rights reserved
+	Copyright 2020 The Go Authors. All rights reserved
+	Copyright (c) 2009 The Go Authors. All rights reserved
+golang.org/x/mod v0.8.0 long_tail:go.googlesource.com/mod#v0.8.0
+	Copyright 2018 The Go Authors. All rights reserved
+	Copyright 2019 The Go Authors. All rights reserved
+	Copyright 2020 The Go Authors. All rights reserved
+	Copyright 2021 The Go Authors. All rights reserved
+	Copyright (c) 2009 The Go Authors. All rights reserved
+golang.org/x/sync v0.3.0 long_tail:go.googlesource.com/sync#v0.3.0
+	Copyright 2013 The Go Authors. All rights reserved
+	Copyright 2016 The Go Authors. All rights reserved
+	Copyright 2017 The Go Authors. All rights reserved
+	Copyright 2019 The Go Authors. All rights reserved
+	Copyright 2023 The Go Authors. All rights reserved
+	Copyright (c) 2009 The Go Authors. All rights reserved
+golang.org/x/tools v0.6.0 long_tail:go.googlesource.com/tools#v0.6.0
+	(C) // @describe var-ref-i-C "i"	if i != nil {		i = D{} // @describe var-ref-i-D "i"	}	print(i) // @describe var-ref-i "\\bi\\b"
+	(C) f()func (*C) g()
+	(C) f(m map	fmt.Println("C.f()")}
+	(C) f()type D intfunc (D) g()type E struct{C;D}var _ I = E{}`),			from: "main.I.f", to: "g",			want: `renaming this method "f" to "g".*` +				`would make the g method of main.E invoked via int
+	(C) f()type D struct{C}var _ I = D{}`,
+	(C) f()		//	type D struct{C}		//	var _ I = D{}		//		for key := range r.satisfy() {			// key = (lhs, rhs) where lhs is always an interface.			if isInterface(key.RHS) {				continue
+	(C) f()		//	type D struct{C}		//	var _ I = D{}		//		for key := range r.satisfy() {			// key = (lhs, rhs) where lhs is always an interface.			if types.IsInterface(key.RHS) {				continue
+	(C) f()type D struct{C}var _ I = D{}`),			from: "(main.C).f", to: "F",			want: `renaming this method "f" to "F".*` +				`would make main.D no longer assignable to interface I.*` +				`(rename m
+	(C) f()type J interface{	f()int}var _ = I(C(0)).(J)
+	(C) g() intvar _ I = C{}`),			from: "main.I.f", to: "g",			want: `renaming this method "f" to "g".*` +				`would change the g method of main.C invoked via interface main.I.*` +				`from \(main.I
+	(C) g() intvar _ int = C{}.g()`,
+	(C) g()type D intfunc (*D) f()func (*D) g()type I interface { f(); g() }type J interface { I; h() }var _ I = new(D)var _ interface {f()} = C(0)`),			from: "(main.I).f", to: "g",			want: `ren
+	(C) g()var _, _ I = A(0), B(0)var _, _ J = B(0), C(0)`,
+	(C) g()			//      var _ I = C{} // here			// yields abstract method I.f.  This can make error			// messages less than obvious.			//			if !isInterface(key.RHS) {				// The logic below was derived
+	(C) g()			//      var _ I = C{} // here			// yields abstract method I.f.  This can make error			// messages less than obvious.			//			if !types.IsInterface(key.RHS) {				// The logic below was d
+	Copyright © 1994-1999 Lucent Technologies Inc.  All rights reserved
+	Copyright © 1995-1997 C H Forsyth (forsyth@terzarima.net)
+	Copyright © 1997-1999 Vita Nuova Limited
+	Copyright © 2000-2007 Lucent Technologies Inc. and others
+	Copyright © 2000-2007 Vita Nuova Holdings Limited (www.vitanuova.com)
+	Copyright © 2004,2006 Bruce Ellis
+	Copyright © 2005-2007 C H Forsyth (forsyth@terzarima.net)
+	Copyright © 2009 The Go Authors. All rights reserved
+	Copyright 2009 The Go Authors. All rights reserved
+	Copyright 2010 The Go Authors. All rights reserved
+	Copyright 2011 The Go Authors. All rights reserved
+	Copyright 2012 The Go Authors. All rights reserved
+	Copyright 2013 jQuery Foundation and other contributors Licensed MIT
+	Copyright 2013 The Go Authors. All rights reserved
+	Copyright 2014 The Go Authors. All rights reserved
+	Copyright 2015 The Go Authors. All rights reserved
+	Copyright 2016 The Go Authors. All rights reserved
+	Copyright 2017 The Go Authors. All rights reserved
+	Copyright 2018 The Go Authors. All rights reserved
+	Copyright 2019 The Go Authors. All rights reserved
+	Copyright 2020 The Go Authors. All rights reserved
+	Copyright 2021 The Go Authors. All rights reserved
+	Copyright 2022 The Go Authors. All rights reserved
+	Copyright 2023 The Go Authors. All rights reserved
+	Copyright (c) 2009 The Go Authors. All rights reserved
+	Copyright (c) 2012-2016 The go-diff Authors. All rights reserved
+	Copyright (c) 2013 TOML authors
+	Copyright (c) 2015, Daniel Mart
+	Copyright (c) 2016 Dominik Honnef
+	Copyright (c) 2017 The Go Authors. All rights reserved
+	Copyright (c) 2019, Daniel Mart
+	copyright checks that files have the correct copyright notices.
+	Copyright (c) Microsoft Corporation
+	Copyright(dir string) (	var files []string	err := filepath.WalkDir(dir, func(path string, d fs.DirEntry, err error) error {		if err != nil {			return err		}		if d.IsDir() {			// Skip directorie
+	Copyright = false			break		}
+	Copyright {			files = append(files, path)		}		return nil
+	copyright header.	if strings.HasSuffix(normalized, "cmd/goyacc/yacc.go") {		return false, nil	}	content, err := ioutil.ReadFile(filename)	if err != nil {		return false, err
+	copyright should appear before the package declaration.		if c.Pos() > parsed.Package {			break		}		if copyrightRe.MatchString(c.Text()) {
+	Copyright(t	cwd, err := os.Getwd()	if err != nil {		t.Fatal(err)	}	tools := filepath.Dir(cwd)	if !strings.HasSuffix(filepath.Base(tools), "tools") {		t.Fatalf("current working directory is %s, 
+	Copyright(tools)	if err != nil {		t.Fatal(err)	}	if len(files) > 0 {		t.Errorf("The following files are missing copyright notices:\n%s", strings.Join(files, "\n"))
+	Copyright := true	for _, c := range parsed.Comments {
+	Copyright\x202009\x20The\x20Go\x20Authors.\x20All\x20rights\x20reserved.\x0a\x09Use\x20of\x20this\x20source\x20code\x20is\x20governed\x20by\x20a\x20BSD-style\x0a\x09license\x20that\x20can\x20be\x20fou
+	Copyright\x202012\x20The\x20Go\x20Authors.\x20All\x20rights\x20reserved.\x0a//\x20Use\x20of\x20this\x20source\x20code\x20is\x20governed\x20by\x20a\x20BSD-style\x0a//\x20license\x20that\x20can\x20be\x2
+	Copyright\x202018\x20The\x20Go\x20Authors.\x20All\x20rights\x20reserved.\x0a\x09Use\x20of\x20this\x20source\x20code\x20is\x20governed\x20by\x20a\x20BSD-style\x0a\x09license\x20that\x20can\x20be\x20fou
+	Copyright\x20J\xc3\xb6rn\x20Zaefferer\x0a\x20
+	(C) // @pointsto var-ref-i-C "i"	if i != nil {		i = D{} // @pointsto var-ref-i-D "i"	}	print(i) // @pointsto var-ref-i "\\bi\\b"
+	(C) returns all currently known interfaces implemented by C.func (r *rta) interfaces(C types.Type) []*types.Interface {	// Ascertain set of interfaces C implements	// and update 'implements' relati
+golang/text v0.3.6 long_tail:go.googlesource.com/text#v0.3.6
+	(C) Chinese (traditional).		"\u4ED6\u5011\u7232\u4EC0\u9EBD\u4E0D\u8AAA\u4E2D\u6587",		"ihqwctvzc91f659drss3x8bo0yb",	},
+	Copyright 2009 The Go Authors. All rights reserved
+	Copyright 2011 The Go Authors. All rights reserved
+	Copyright 2012 The Go Authors. All rights reserved
+	Copyright 2013 The Go Authors. All rights reserved
+	Copyright 2014 The Go Authors. All rights reserved
+	Copyright 2015 The Go Authors. All rights reserved
+	Copyright 2016 The Go Authors. All rights reserved
+	Copyright 2017 The Go Authors. All rights reserved
+	Copyright 2018 The Go Authors. All rights reserved
+	Copyright 2019 The Go Authors. All rights reserved
+	Copyright (c) 2009 The Go Authors. All rights reserved
+rsc/pdf v0.1.1 github:rsc/pdf:v0.1.1
+	Copyright 2014 The Go Authors.  All rights reserved
+	Copyright (c) 2009 The Go Authors. All rights reserved
+yuin/goldmark v1.4.0 github:yuin/goldmark:v1.4.0
+	Copyright (c) 2019 Yusuke Inuzuka
+yuin/goldmark v1.4.13 github:yuin/goldmark:v1.4.13
+	Copyright (c) 2019 Yusuke Inuzuka
+
+
+Licenses: 
+
+BSD 3-clause "New" or "Revised" License
+(github.com/mmcloughlin/avo v0.4.0)
+
+BSD 3-Clause License
+
+Copyright (c) 2018, Michael McLoughlin
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+
+---
+
+BSD 3-clause "New" or "Revised" License
+(golang.org/x/mod v0.4.2, golang.org/x/tools v0.1.7, golang/text v0.3.6, rsc/pdf v0.1.1)
+
+Copyright (c) 2009 The Go Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+
+---
+
+BSD 3-clause "New" or "Revised" License
+(go.googlesource.com/arch 20210923-snapshot-b76863e3, go.googlesource.com/arch v0.4.0, golang.org/x/crypto 20191011-snapshot-87dc89f0, golang.org/x/crypto 20230706-snapshot-2e82bdd1, golang.org/x/mod v0.12.0, golang.org/x/mod v0.8.0, golang.org/x/net 20210728-snapshot-aaa1db67, golang.org/x/net 20221013-snapshot-57553cbf, golang.org/x/net v0.12.0, golang.org/x/sync 20210219-snapshot-036812b2, golang.org/x/sync v0.3.0, golang.org/x/sys 0.10.0, golang.org/x/sys 20211019-snapshot-b3129d9d, golang.org/x/term 20201126-snapshot-7de9c90e, golang.org/x/term v0.10.0, golang.org/x/tools v0.6.0, golang.org/x/xerrors 20200804-snapshot-5ec99f83, golang/text v0.11.0, ianlancetaylor/demangle 20220319-snapshot-800ac71e)
+
+Copyright (c) <YEAR>, <OWNER>
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+  * Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+
+  * Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+
+  * Neither the name of the <ORGANIZATION> nor the names of its contributors may
+    be used to endorse or promote products derived from this software without
+    specific prior written permission.
+
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---
+
+MIT License
+(yuin/goldmark v1.4.0)
+
+MIT License
+
+Copyright (c) 2019 Yusuke Inuzuka
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE
+
+---
+
+MIT License
+(chzyer-readline v1.5.0, yuin/goldmark v1.4.13)
+
+The MIT License
+===============
+
+Copyright (c) <year> <copyright holders>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in the
+Software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
